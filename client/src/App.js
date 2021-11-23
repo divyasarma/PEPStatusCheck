@@ -45,7 +45,7 @@ function App() {
       </header>
       </header>
       <div id="display">Enter Customer details:</div>
-    <div><input className="textbox" type="text" value={input} onChange={e => setInput(e.target.value)}/>
+    <div><input className="textbox" type="text" value={input} onChange={e => setInput(e.target.value)} onKeyPress={e => {if(e.key === 'Enter'){callData();}}}/>
         <button className="send"onClick={callData}>Send</button>
     </div>
     {data ? <div>

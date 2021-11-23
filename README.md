@@ -19,6 +19,8 @@ To run locally:
 
 Clone the repo url from main branch.
 
+Run npm install from terminal
+
 Build the project using the command : npm run build
 
 Run the project using : npm start
@@ -29,4 +31,6 @@ Open [http://localhost:3001] to view it in the browser.
 ## Comments
 
 Both Node backend and React frontend are going to be served on http://localhost:3001
+
+If you are getting error while building the project, try deleting package-lock.json of client folder and build again
 
