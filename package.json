@@ -1,0 +1,21 @@
+{
+  "name": "pepstatuscheck",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "cd client && npm install && npm run build"
+  },
+  "engines": {
+    "node": "16.4.0"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.1",
+    "react-table": "^7.7.0"
+  }
+}

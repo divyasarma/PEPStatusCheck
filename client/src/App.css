@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+  width: 100%;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  display: inline;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+#customers {
+  margin: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  position: center;
+  width: 80%;
+  height: 100%;
+  top: 50%;
+}
+
+#customers td, #customers th {
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+#customers tr:nth-child(even){
+  background-color: #f2f2f2;
+  color: rgb(37, 34, 34);
+  font-family: sans-serif;
+}
+
+#customers tr:hover {
+  background-color:#7c7c7d ;
+  color: rgb(37, 34, 34);
+}
+
+#customers th {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-align: center;
+  background-color:white;
+  border-bottom: solid 3px black;
+  color: rgb(37, 34, 34);
+}
+.App input{
+  margin: 15px;
+    border: 1px solid rgb(98, 143, 228);
+    padding: 0.4rem;
+}
+.App .textbox{
+margin-bottom: 4rem;
+width: 50%;
+height : 1rem;
+border-radius: 4px;
+}
+.App .send{
+  color:white;
+  background-color: #77778c;
+  border-radius: 4px;
+  height : 2rem;
+}
+#display{
+  top: 50%;
+  left: 50%;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(90deg);
+  }
+}
