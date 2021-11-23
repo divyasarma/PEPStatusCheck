@@ -50,6 +50,14 @@
   padding: 5px;
 }
 
+#customers th:first-of-type {
+  border-radius:1rem 0 0 0;
+}
+
+#customers th:last-of-type {
+  border-radius:0 1rem 0 0;
+}
+
 #customers tr:nth-child(even){
   background-color: #f2f2f2;
   color: rgb(37, 34, 34);
@@ -68,6 +76,8 @@
   background-color:white;
   border-bottom: solid 3px black;
   color: rgb(37, 34, 34);
+  background-color: #71768b;
+  border:none;
 }
 .App input{
   margin: 15px;
